@@ -1,0 +1,44 @@
+* {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    margin: auto;
+    width: 90%;
+}
+
+h1 {
+    background-color: #ffa60071;
+    color: #a52a2a;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    background-color: #ff000033;
+    border-bottom: 2px solid red;
+    color: red;
+    padding: 5px 10px;
+}
+
+p {
+    font-size: small;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-position: inside;
+}
