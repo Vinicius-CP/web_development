@@ -1,0 +1,22 @@
+li ul {
+    height: 0;
+    overflow: hidden;
+    transition: height .5s;
+}
+
+li:hover {
+    background: #ccc;
+}
+
+li:hover ul {
+    height: 30px;
+}
+
+dl dd {
+    display: none;
+    transition: display .3s;
+}
+
+dl:hover dd {
+    display: block;
+}
