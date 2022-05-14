@@ -1,0 +1,144 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #29539b;
+    background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+}
+
+
+/* <header> content */
+.img-header {
+    /* background-image: url(images/bg-4.jpg); */
+    background-image: url(https://images.unsplash.com/photo-1577648188599-291bb8b831c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1179&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid transparent;
+    height: 700px;
+}
+
+.intro-content {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 200px;
+}
+
+.intro-content h1 {
+    font-size: 46px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.intro-content p {
+    background-color: rgb(0, 0, 0, .2);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px 30px;
+}
+
+.img-header nav ul {
+    margin: 35px 35px 0 0;
+    text-align: right;
+}
+
+.img-header nav li {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+}
+
+.img-header nav a {
+    background-color: rgba(255, 255, 255, .2);
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.img-header nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+
+/* <main> content */
+main {
+    margin: auto;
+    width: 80%;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+.card {
+    box-sizing: border-box;
+    float: left;
+    width: 32%;
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+
+.card img {
+    display: block;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.card p {
+    background-color: rgb(0, 0, 0, .7);
+    border-radius: 0 0 10px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.section-content {
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    margin: 15px 0 0 0;
+    overflow: auto;
+    padding: 15px;
+}
+
+.section-content article {
+    margin: 40px 40px;
+    box-sizing: border-box;
+}
+
+.section-content h2 {
+    border-bottom: 2px solid rgb(172, 95, 191);
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 10px;
+}
+
+.section-content p {
+    font-size: 18px;
+    text-indent: 50px;
+}
+
+/* <footer> content */
+footer {
+    background-color: rgb(30, 59, 112);
+    color: rgb(255, 255, 255);
+    height: 80px;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgb(51, 51, 51);
+    line-height: 80px;
+}
