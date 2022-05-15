@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Entry Types</title>
+</head>
+<body>
+    <h1>Form example</h1>
+
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Personal data</legend>
+
+            <label>Email</label>
+            <input type="email" required placeholder="Type a valid email"><br>
+
+            <label>Child quantity</label>
+            <input type="number" min="0" max="99"><br>
+
+            <label>Birth</label>
+            <input type="date" min="2022-04-01" max="2022-05-30">
+
+            <p>Gender</p>
+            <label>
+                <input type="radio" name="gender" value="M">
+                Male
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="F">
+                Female
+            </label><br>
+
+            <label>State</label>
+            <select multiple size="2">
+                <option value="0">Select</option>
+                <option value="SP">Sao Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Area of interest</legend>
+
+            <label><input type="checkbox" name="html" value="html">HTML</label>
+            <label><input type="checkbox" name="css" value="css">CSS</label>
+            <label><input type="checkbox" name="js" value="js">Javascript</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Message</legend>
+
+            <textarea style="resize: none" name="message" cols="50" rows="10" readonly> Here you can type your message.</textarea><br>
+            <label><input type="checkbox" checked>Read and accepted</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Others</legend>
+
+            <input type="hidden" name="hidden" value="hidden">
+            <label>File</label>
+            <input type="file" name="file" value="file"><br>
+            <label>Telephone</label>
+            <input type="tel" name="tel"><br>
+            <label>URL</label>
+            <input type="url" name="url"><br>
+            <label>Search</label>
+            <input type="search" name="search" maxlength="10"><br>
+            <input type="range" min="0" max="10" step="2">
+            <input type="time">
+            <input type="color">
+        </fieldset>
+
+        <fieldset>
+            <input type="submit" value="Enter">
+            <input type="button" value="Button">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
