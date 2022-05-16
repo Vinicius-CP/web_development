@@ -1,0 +1,12 @@
+#radius, #circle {
+    background: orange;
+    border-radius: 50px 100px / 100px 50px;
+    height: 200px;
+    margin: 50px auto;
+    width: 200px;
+}
+
+#circle {
+    background-color: purple;
+    border-radius: 50%;
+}
