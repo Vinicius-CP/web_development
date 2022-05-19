@@ -1,0 +1,10 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: red;
+    background-image: linear-gradient(to right top, red 100px, blue 10%, black, white 250px, white 300px, orange 300px),
+        linear-gradient(to left bottom, blue, transparent);
+}
