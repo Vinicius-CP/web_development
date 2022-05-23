@@ -1,0 +1,22 @@
+div {
+    border: 3px solid #ff0000;
+    padding: 25px;
+    position: relative;
+    margin: 25px;
+}
+
+div::before {
+    content: "Before text ";
+    background: #ddd;
+}
+
+div::after {
+    content: "";
+    background: #dd88dd88;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
