@@ -1,0 +1,41 @@
+input[type="checkbox"] {
+    height: 100px;
+    width: 100px;
+}
+
+input[type="checkbox"]:checked {
+    height: 50px;
+    width: 50px;
+}
+
+button:disabled {
+    background: blue;
+}
+
+p {
+    color: red;
+}
+
+p:empty:before {
+    content: "Empty paragraph"
+}
+
+input[type="text"]:focus {
+    color: purple;
+}
+
+a:focus, a:hover, div:focus {
+    background: yellow;
+}
+
+input::placeholder {
+    color: green;
+}
+
+input:disabled {
+    background: yellow;
+}
+
+input:read-only {
+    border-color: blue;
+}
