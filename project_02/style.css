@@ -1,0 +1,148 @@
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: auto;
+}
+
+
+/* <header> content */
+.img-bg {
+    background-image: url(https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+    background-position: top;
+    background-size: cover;
+    height: 700px;
+}
+
+.nav-position {
+    background-color: rgb(0, 35, 47);
+    text-align: right;
+    overflow: auto;
+}
+
+.nav-position img {
+    float: left;
+    margin: 8px 0 0 170px;
+    cursor: pointer;
+}
+
+.nav-position li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-position a {
+    color: rgba(255, 255, 255, .5);
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color .3s linear;
+}
+
+.nav-position a:hover {
+    color: rgb(255, 255, 255, .7);
+}
+
+
+/* <main> content */
+.company-resume {
+    font-weight: normal;
+    margin: 70px 0;
+    text-align: center;
+}
+
+.company-resume header {
+    color: rgb(37, 37, 37);
+    font-size: 32px;
+}
+
+.company-resume p {
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 2;
+    margin: 0 10%;
+}
+
+.gallery {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+.card {
+    display: inline-block;
+    margin: 2% 3% 5% 0;
+    width: 29%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-info {
+    color: rgb(85, 85, 85);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.flowered-bg {
+    background-color: rgb(0, 61, 82);
+    background-image: url(images/bg_detalhe.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    color: rgb(255, 255, 255);
+    padding: 100px;
+}
+
+.flowered-bg h1 {
+    font-weight: 500;
+    font-size: 60px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.flowered-bg p {
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 32px;
+    padding: 20px 50% 0 0;
+}
+
+.contact {
+    margin: 60px auto;
+}
+
+.contact h1 {
+    color: rgb(0, 39, 52);
+    font-size: 26px;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.address iframe {
+    width: 100%;
+}
+
+
+/* <footer> content */
+footer {
+    background-color: rgb(0, 35, 47);
+    height: 80px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, .5);
+    margin: 50px 0 0 0;
+    letter-spacing: 3px;
+    line-height: 80px;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgb(51, 51, 51);
+}
