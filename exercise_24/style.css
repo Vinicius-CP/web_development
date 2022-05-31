@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.div-1 {
+    background: red;
+    height: 50px;
+    width: 150px;
+    transform: translate(50%, 50%);
+}
+
+.div-2 {
+    background: blue;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    left: 50%;
+}
+
+.div-3 {
+    width: 50%;
+    overflow: hidden;
+    border: solid 2px black;
+}
+
+.div-3-intern {
+    background: yellow;
+    transform: translate(80%, 25px);
+}
+
+.div-4 {
+    width: 50%;
+    overflow: hidden;
+    border: solid 2px black;
+}
+
+.div-4-intern {
+    background: yellow;
+    transform: rotate(-10deg);
+}
+
+.div-5 {
+    width: 50%;
+    overflow: hidden;
+    border: solid 2px black;
+}
+
+.div-5-intern {
+    background: yellow;
+    transform: rotate(30deg);
+    transform-origin: left;
+}
+
+.div-6 {
+    width: 50%;
+    overflow: hidden;
+    border: solid 2px black;
+}
+
+.div-6-intern {
+    background: yellow;
+    transform: rotate(30deg) translate(30px);
+}
+
+.div-7 {
+    width: 50%;
+    overflow: hidden;
+    border: solid 2px black;
+}
+
+.div-7-intern {
+    background: yellow;
+    transform: translate(30px) rotate(30deg);
+}
+
+.div-8 {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    transform: skew(-36deg, 50deg);
+}
+
+.div-9 {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    transform: scale(.5) translateX(50%);
+    transition: transform .5s;
+}
+
+.div-9:hover {
+    transform: scale(2);
+}
