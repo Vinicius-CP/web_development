@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+label {
+    margin-right: 25px;
+}
+
+.custom-check {
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    background: #ddd;
+    border-radius: 10px;
+}
+
+.custom-check::before {
+    display: block;
+    height: 15px;
+    width: 15px;
+    content: "";
+    background: #fff;
+    border-radius: 50%;
+    margin: 3px 0 0 2px;
+    transition: transform .2s ease-in-out;
+}
+
+label input:checked + .custom-check::before {
+    background: #199a19;
+    transform: translateX(21px);
+}
+
+label input:focus + .custom-check {
+    box-sizing: border-box;
+    box-shadow: 0 0 0 1px #0f0f63;
+}
+
+input[type="checkbox"] {
+    overflow: hidden;
+    opacity: 0;
+    height: 1px;
+    width: 1px;
+}
