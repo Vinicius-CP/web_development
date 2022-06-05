@@ -1,0 +1,29 @@
+html {
+    font-size: 32px;
+}
+
+body {
+    font: 16px sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    border: 1px solid black;
+    padding: 1em;
+    width: 20em; /* 320px / 16px ==> 20em */
+    margin: 6.25em auto; /* 100px / 16px ==> 6.25em */
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 1.25em; /* 16px x 1.25em ==> 20px */
+}
+
+a {
+    font-size: 1rem; /* 24px / 20px ==> 1.2em */
+}
