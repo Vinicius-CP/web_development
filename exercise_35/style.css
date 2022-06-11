@@ -1,0 +1,93 @@
+#group-color {
+    background: url(image/tile.png);
+    counter-reset: count;
+    padding: 15px;
+}
+
+#group-color div {
+    counter-increment: count;
+    border: 10px solid rgba(0, 0, 0, .5);
+    height: 150px;
+    margin: 20px auto;
+    padding: 15px;
+    width: 80%;
+}
+
+#group-color div::before {
+    content: '[' counter(count) ']';
+}
+
+#group-color div:nth-child(2) {
+    background-color: blueviolet;
+    background-clip: content-box;
+}
+
+#group-color div:nth-child(3) {
+    background-color: rgb(50%, 50%, 0%);
+    background-clip: content-box;
+}
+
+#group-color div:nth-child(4) {
+    background-color: rgba(50%, 50%, 0%, .5);
+    background-clip: content-box;
+}
+
+#group-color div:nth-child(5) {
+    background-color: hsl(120deg, 100%, 20%);
+    background-clip: content-box;
+}
+
+#group-color div:nth-child(6) {
+    background-color: hsla(120deg, 50%, 20%, .5);
+    background-clip: content-box;
+}
+
+#group-color div:nth-child(7) {
+    background-image: linear-gradient(to bottom left, blue, red, transparent), linear-gradient(to top right, red, yellow);
+    background-clip: content-box, border-box;
+}
+
+#group-color div:nth-child(8) {
+    background-image: radial-gradient(red, blue);
+}
+
+#group-color div:nth-child(9) {
+    background-image: radial-gradient(circle, red, blue);
+}
+
+
+#group-color div:nth-child(10) {
+    background-image: radial-gradient(red 50%, rgba(50, 10, 200, .3), orange, green 60%);
+}
+
+#group-color div:nth-child(11) {
+    background-image: radial-gradient(closest-side at 20% 90%, red 50%, rgba(50, 10, 200, .3), orange, green 60%);
+}
+
+#group-color div:nth-child(12) {
+    background-image: radial-gradient(farthest-side at 20% 90%, red 50%, rgba(50, 10, 200, .3), orange, green 60%);
+}
+
+#group-color div:nth-child(13) {
+    background-image: radial-gradient(closest-corner at 20% 90%, red 50%, rgba(50, 10, 200, .3), orange, green 60%);
+}
+
+#group-color div:nth-child(14) {
+    background-image: radial-gradient(farthest-corner at 20% 90%, red 50%, rgba(50, 10, 200, .3), orange, green 60%);
+}
+
+#group-color div:nth-child(15) {
+    background-image: repeating-linear-gradient(red 0%, yellow 10%, blue 33.33%);
+}
+
+#group-color div:nth-child(16) {
+    background-image: repeating-radial-gradient(red 0%, transparent 10%, blue 33.33%), linear-gradient(rgba(100%, 0%, 0%, .5), blue);
+    background-attachment: scroll, fixed;
+}
+
+#group-color div:nth-child(17) {
+    background-image: radial-gradient(closest-corner at 50% 15%, black, transparent) ,url(image/tile.png);
+    background-size: cover;
+    background-position: center -30px, center bottom;
+    background-repeat: no-repeat;;
+}
