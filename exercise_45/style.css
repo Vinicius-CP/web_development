@@ -1,0 +1,19 @@
+#unique {
+    color: blue;
+}
+
+p.highlight {
+    color: orange;
+}
+
+p[lang] {
+    color: black;
+}
+
+.highlight {
+    color: red;
+}
+
+p {
+    color: green /* !important */;
+}
